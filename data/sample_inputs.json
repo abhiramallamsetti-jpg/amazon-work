@@ -1,0 +1,65 @@
+{
+  "description": "Sample customer messages for Day 4 agent smoke testing. These are NEW examples, not copies of Golden Test cases.",
+  "samples": [
+    {
+      "id": "S1",
+      "message": "Hi, I am having trouble playing a playlist on offline mode. It keeps buffering.",
+      "expected_intent": "playback_issue",
+      "category": "clear_normal_request"
+    },
+    {
+      "id": "S2",
+      "message": "Where is my order? It was supposed to arrive last week.",
+      "expected_intent": "delivery_delay",
+      "category": "delivery_issue"
+    },
+    {
+      "id": "S3",
+      "message": "I was charged twice for my subscription this month. I would like a refund please.",
+      "expected_intent": "billing_issue",
+      "category": "refund_request"
+    },
+    {
+      "id": "S4",
+      "message": "My payment method was declined when trying to renew my premium plan.",
+      "expected_intent": "billing_issue",
+      "category": "payment_issue"
+    },
+    {
+      "id": "S5",
+      "message": "I cannot sign in to my account. It says my password is wrong but I know it is correct.",
+      "expected_intent": "account_access",
+      "category": "account_issue"
+    },
+    {
+      "id": "S6",
+      "message": "So basically I want to know why everything keeps stopping and also how do I get lyrics to show?",
+      "expected_intent": "playback_issue",
+      "category": "ambiguous_request"
+    },
+    {
+      "id": "S7",
+      "message": "This is ridiculous! I have paid for premium for two years and the app still crashes every single time I open it. Fix this now or I am cancelling.",
+      "expected_intent": "app_bug",
+      "category": "angry_customer"
+    },
+    {
+      "id": "S8",
+      "message": "I think my account has been hacked. Someone I do not know changed my email address and is using my premium subscription. What are you going to do about it?",
+      "expected_intent": "account_access",
+      "category": "high_risk_security"
+    },
+    {
+      "id": "S9",
+      "message": "My order is late, I was charged twice, and please also change my delivery address.",
+      "expected_intent": "multiple",
+      "category": "multiple_issues"
+    },
+    {
+      "id": "S10",
+      "message": "Tell me about the new feature you launched last Thursday for international listeners.",
+      "expected_intent": "feature_inquiry",
+      "category": "weak_historical_evidence"
+    }
+  ]
+}

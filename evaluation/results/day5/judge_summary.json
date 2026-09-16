@@ -1,0 +1,8 @@
+{
+  "total_evaluated": 10,
+  "successful_judgments": 0,
+  "failed_judgments": 10,
+  "provider_configured": true,
+  "metrics": {},
+  "status": "LLM JUDGE EVALUATION PENDING \u2014 API KEY/PROVIDER REQUIRED"
+}

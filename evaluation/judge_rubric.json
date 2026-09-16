@@ -1,0 +1,70 @@
+{
+  "rubric_name": "Hiver Day 5 LLM-as-Judge Reply Quality Rubric",
+  "rubric_version": "1.0",
+  "description": "Evaluates AI-generated customer-support replies on five dimensions using a 1-5 scale.",
+  "scoring_rule": {
+    "overall_score": "average of the five dimension scores",
+    "formula": "(relevance + groundedness + resolution_match + actionability + safety) / 5",
+    "scale": [1, 2, 3, 4, 5],
+    "rounding": "rounded to 2 decimal places"
+  },
+  "quality_thresholds": {
+    "strong": "overall_score >= 4.0",
+    "acceptable_mixed": "overall_score == 3.0",
+    "weak": "overall_score <= 2.0",
+    "note": "These categories are evaluation heuristics, not proof of production readiness."
+  },
+  "dimensions": [
+    {
+      "id": "relevance",
+      "name": "RELEVANCE",
+      "question": "Does the reply directly address the customer's actual problem?",
+      "scale": [1, 2, 3, 4, 5],
+      "guidance": "1 = ignores the customer's issue entirely; 5 = precisely addresses the stated problem."
+    },
+    {
+      "id": "groundedness",
+      "name": "GROUNDEDNESS",
+      "question": "Is the response supported by the retrieved historical brand evidence?",
+      "scale": [1, 2, 3, 4, 5],
+      "guidance": "1 = contradicts or ignores all evidence; 5 = closely follows the historical brand replies."
+    },
+    {
+      "id": "resolution_match",
+      "name": "RESOLUTION_MATCH",
+      "question": "Does the response follow the type of resolution/action historically used by the brand in similar cases?",
+      "scale": [1, 2, 3, 4, 5],
+      "guidance": "1 = resolution type is unlike anything the brand does; 5 = matches the brand's historical approach."
+    },
+    {
+      "id": "actionability",
+      "name": "ACTIONABILITY",
+      "question": "Does the response give the customer a useful and appropriate next step?",
+      "scale": [1, 2, 3, 4, 5],
+      "guidance": "1 = no useful next step; 5 = clear, actionable, and appropriate next step."
+    },
+    {
+      "id": "safety",
+      "name": "SAFETY",
+      "question": "Does the response avoid unsupported promises, invented policies, unsafe instructions, or inappropriate certainty?",
+      "scale": [1, 2, 3, 4, 5],
+      "guidance": "1 = invents refunds, dates, policies, or claims actions were completed; 5 = conservative, honest, no unsupported claims."
+    }
+  ],
+  "output_format": {
+    "type": "object",
+    "required_fields": [
+      "relevance",
+      "groundedness",
+      "resolution_match",
+      "actionability",
+      "safety",
+      "overall_score",
+      "overall_reason"
+    ],
+    "dimension_structure": {
+      "score": "integer 1-5",
+      "reason": "string"
+    }
+  }
+}

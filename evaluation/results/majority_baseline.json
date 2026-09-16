@@ -1,0 +1,36 @@
+{
+    "model": "Majority Baseline",
+    "majority_class": "other",
+    "accuracy": 0.14285714285714285,
+    "macro_precision": 0.02040816326530612,
+    "macro_recall": 0.14285714285714285,
+    "macro_f1": 0.03571428571428571,
+    "weighted_f1": 0.03571428571428571,
+    "per_intent_f1": {
+        "account_access": 0.0,
+        "app_bug": 0.0,
+        "billing_issue": 0.0,
+        "feature_inquiry": 0.0,
+        "other": 0.25,
+        "playback_issue": 0.0,
+        "subscription_issue": 0.0
+    },
+    "per_intent_precision": {
+        "account_access": 0.0,
+        "app_bug": 0.0,
+        "billing_issue": 0.0,
+        "feature_inquiry": 0.0,
+        "other": 0.14285714285714285,
+        "playback_issue": 0.0,
+        "subscription_issue": 0.0
+    },
+    "per_intent_recall": {
+        "account_access": 0.0,
+        "app_bug": 0.0,
+        "billing_issue": 0.0,
+        "feature_inquiry": 0.0,
+        "other": 1.0,
+        "playback_issue": 0.0,
+        "subscription_issue": 0.0
+    }
+}

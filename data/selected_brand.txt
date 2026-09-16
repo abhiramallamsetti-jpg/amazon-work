@@ -1,0 +1,8 @@
+Selected brand: SpotifyCares
+Reason: It has a manageable dataset size for local experimentation with a good amount of historical examples.
+Number of tweets: 86530
+Approximate customer messages: 43265
+Approximate brand replies: 43265
+Approximate conversations: 43265
+Why this brand is suitable: Provides a balanced dataset size, enough to identify customer issues and test RAG pipelines without overwhelming local compute.
+Potential limitations: Since it's a specific brand, models might overfit to their specific support style or terminology.

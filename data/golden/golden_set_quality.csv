@@ -1,0 +1,7 @@
+metric,value
+total_examples,210
+duplicate_examples,0
+empty_messages,0
+difficult_examples,20
+number_of_intents,7
+label_source,keyword_heuristic (see DECISIONS.md)

@@ -1,0 +1,36 @@
+example_id,customer_message,true_intent,predicted_intent,correct,confidence,source_case_id
+GOLD_115,@115888 why??and when??😡😡 https://t.co/jwqbl6pVaU,feature_inquiry,other,False,0.9907546839395726,CASE_1033326
+GOLD_202,"@SpotifyCares I have Spotify premium and have playlists downloaded but when using bus WiFi none of my downloaded playlists show up and it won’t connect, even though the WiFi is working fine https://t.co/rXZS7xsCZ2",subscription_issue,playback_issue,False,0.9746417574388043,CASE_124148
+GOLD_118,@SpotifyCares Please help me. How do i change my name on Spotify? I made this when I was like 11 and I need help. https://t.co/FdSLsT1RFl,feature_inquiry,other,False,0.9537232720517833,CASE_1618073
+GOLD_114,"@SpotifyCares Yes correct, when share directly from Spotify app",feature_inquiry,other,False,0.9063043979956388,CASE_1304772
+GOLD_102,@SpotifyCares Awesome! I was looking forward to the show and got a little concerned when @33468 wasn't listed. Glad that'll get fixed,feature_inquiry,other,False,0.8904306851253682,CASE_968726
+GOLD_49,@SpotifyCares @115888 please imbed your ads differently/make them work better. They're unbelievably glitchy,app_bug,other,False,0.8745709703723643,CASE_2025468
+GOLD_97,"@115888 : Music for everyone... but russians? When will you make a version for my country? Why should we use vpn? Zaebali, blyad'.",feature_inquiry,other,False,0.8581377410647693,CASE_1840367
+GOLD_103,When you watch the “short” video to get 30 mins of ad free music and then 10 mins later you get an ad. @115888 https://t.co/08f0utnhgY,feature_inquiry,other,False,0.8417836648260762,CASE_1666821
+GOLD_29,"@115888 I'm trying to update my country on my account from SE to the USA and there seems to be a bug, please help!",account_access,app_bug,False,0.8381550642816052,CASE_1427226
+GOLD_107,"@SpotifyCares No luck. FYI, this problem came to my attention when the entire Katy Perry library showed up as unavailable on the desktop.",feature_inquiry,other,False,0.7282432714758036,CASE_378046
+GOLD_105,@115888 when is your app going to work properly with iOS 11 🤷🏻‍♂️ hasn’t been working properly since it came out 😩 https://t.co/9vBgMUUGcY,feature_inquiry,other,False,0.7271119826867561,CASE_1313134
+GOLD_91,@115888 when are y'all gonna upload red velvet's new album?,feature_inquiry,other,False,0.7118548764683762,CASE_2633293
+GOLD_9,"@115888 It was happening when I tried to log in on the app, but after three time of uninstalling and reinstalling, it worked. Sorry to bother you. Thank you for your time! 🙂",account_access,other,False,0.7097737663190685,CASE_2158551
+GOLD_119,"@SpotifyCares 2: further, why is Taylor Swift a suggested track when I'm listening to Avenged Sevenfold?",feature_inquiry,other,False,0.684473560469778,CASE_1739263
+GOLD_90,@115888 hi hello when are you gonna give what all the lesbians deserve?? and by that i mean the song 'she keeps me warm' by mary lambert on your platform,feature_inquiry,other,False,0.6641058599503801,CASE_569618
+GOLD_112,@147836 When will Spotify come to India?,feature_inquiry,other,False,0.6500432098206029,CASE_2544106
+GOLD_106,@SpotifyCares when is Spotify going to be available in Egypt?,feature_inquiry,other,False,0.6486255871631453,CASE_141168
+GOLD_25,@SpotifyCares i can't sign in,account_access,other,False,0.625630429370966,CASE_1013277
+GOLD_96,"Dear Internet, can someone tell me when @118062 #Reputation will be on @115888? Sincerely, anxiously waiting.",feature_inquiry,other,False,0.6003688838722243,CASE_2321772
+GOLD_83,@115888 I wish I didn't have to push a button for a small ad for 30 min ad free. My hands aren't always free to push. But I'm not paying cause I can't always listen,billing_issue,other,False,0.577265465480733,CASE_2175458
+GOLD_3,@SpotifyCares Skip Hiatt- __email__,account_access,playback_issue,False,0.5746294577503311,CASE_2603586
+GOLD_85,"@SpotifyCares ...I'm just one guy with an iPhone 4 but if you go look at your stats of users who installed on iPhone 4, how many of them had paying subscriptions which ended once they learned the app no longer works? Its bad practice imo, you should never be too big too care about customers.",billing_issue,other,False,0.5346054899708041,CASE_1959330
+GOLD_36,@SpotifyCares Error 408 telling me I need to modify my country. I am in france and my profile is set to France in the settings. What to do?,app_bug,other,False,0.5153447330023265,CASE_2024785
+GOLD_94,@SpotifyCares @115888 when are you finally going to release the new #spotify app for our #LG smart tv?,feature_inquiry,other,False,0.5094297145555199,CASE_2002476
+GOLD_40,"@SpotifyCares I contributed to an abandoned thread on your forums about it with more detail. https://t.co/VMz5LcGtgb iPhone 7 with latest stable iOS, and 2014 iMac with latest stable macOS. Always install software updates right away, too.",app_bug,other,False,0.5091474982685523,CASE_2565921
+GOLD_50,Hey @SpotifyCares app crashes on iOS 11.0.3 after liking a song in discover weekly https://t.co/60Yef93OzA,app_bug,other,False,0.5084613636221723,CASE_1915067
+GOLD_21,"@SpotifyCares No, sorry. Because it suggests resetting my password – which doesn't work. See below. https://t.co/NVRmXKyZR0",account_access,other,False,0.49569186293730466,CASE_1265635
+GOLD_185,I am a student majoring in Computer Science and crazy about Spotify.  May I due some volunteer programming during the Winter? @SpotifyCares,subscription_issue,other,False,0.48909785753925117,CASE_1460704
+GOLD_110,"I really wish @115888 had a feature that prevented what I listen to when sleeping from affecting my Discover Weekly, Release Radar, Daily Mixes, etc. 
+
+I like a good ambient song as much as the next sleep-seeking person, but not that much.",feature_inquiry,other,False,0.4691320974863902,CASE_2714216
+GOLD_39,"@SpotifyCares Sure, it’s Spotify 8.4.25.906 on iOS 11.0.3. Not a new issue though, followed me through several updates.",app_bug,other,False,0.45651727387088803,CASE_1473898
+GOLD_53,@SpotifyCares I often get this error on my machine when trying to launch Spotify. It is always NOT running (verified in Task Manager) https://t.co/Onu1vHqI5C,app_bug,other,False,0.42630791423087583,CASE_2029932
+GOLD_35,"@SpotifyCares dis/reconnecting helped, thank you! but #Spotify never updated list after initial link. Will I️ have to do this everytime? 🤔",app_bug,other,False,0.3932832990987454,CASE_665730
+GOLD_15,"@spotifycares what can i do to ensure that i get a year in music email this year, please tell me - you have one more shot this year at keeping my business",account_access,other,False,0.37108825893525993,CASE_585123

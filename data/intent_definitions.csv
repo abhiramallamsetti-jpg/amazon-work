@@ -1,0 +1,8 @@
+intent,description,include_examples,exclude_examples,expected_action,escalation_risk
+other,Customer issues related to other,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low
+subscription_issue,Customer issues related to subscription issue,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low
+app_bug,Customer issues related to app bug,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low
+feature_inquiry,Customer issues related to feature inquiry,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low
+account_access,Customer issues related to account access,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low
+playback_issue,Customer issues related to playback issue,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low
+billing_issue,Customer issues related to billing issue,See intent_examples.csv for examples,N/A,Provide relevant troubleshooting or account link,low

@@ -1,0 +1,224 @@
+example_id,customer_message,intent,expected_action,escalation_reason,difficulty,label_source,source_case_id
+GOLD_0,"@SpotifyCares Thank you. But does that move an account., or just delete it along with the history and playlists etc?",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1691143
+GOLD_1,@SpotifyCares I deleted my facebook account which was linked to my Spotify account. I can't log anymore into Spotify :( Any help/tips ? Thanks,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2463178
+GOLD_2,@115888 How can I contact you? Someone is trying to hack into my account.,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1892895
+GOLD_3,@SpotifyCares Skip Hiatt- __email__,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2603586
+GOLD_4,@SpotifyCares But they didn't get into my account. They just clicked th forgot password button. Still suspicious and they should be banned from your service.,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2876124
+GOLD_5,@115888 @SpotifyCares hey I’m having difficulty updating my account in app. Do I have to access that on a browser?,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_431731
+GOLD_6,"I'm quite fed up with this response @115888 ""the language of the emails we send is based on your account's country"". You've had YEARS.",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_23256
+GOLD_7,@115888 I have a problem with my account,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1872429
+GOLD_8,"@115888 hi, is there any setting so that when a device is playing music and then a 2nd/ 3rd device etc, don't interrupt each other? All on the same account",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2364800
+GOLD_9,"@115888 It was happening when I tried to log in on the app, but after three time of uninstalling and reinstalling, it worked. Sorry to bother you. Thank you for your time! 🙂",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2158551
+GOLD_10,I have tried to reset my password but never receive the email. Please help!! And YES I have checked junk folders! @SpotifyCares,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1909105
+GOLD_11,@115888 Hey Spotify my password was reset by you guys but your password reset page isn’t working! It gives a CSRF invalid token error! Please help!,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_95830
+GOLD_12,@SpotifyCares i made a new account and the username showed up as a random jumble of letters?? why is that?,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1426056
+GOLD_13,"@SpotifyCares Trying to create an account, but when I submit, I just get a spinner. Tried incognito and other browsers, emails and devices.",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_649981
+GOLD_14,@SpotifyCares I cant log in. For some reason this morning I was logged off my phone and laptop. Cant log in. I get an error 404 on my phone and error 1003 on my laptop. I am a subscribed member as well.,account_access,Resolve based on account_access,,difficult,keyword_heuristic,CASE_496144
+GOLD_15,"@spotifycares what can i do to ensure that i get a year in music email this year, please tell me - you have one more shot this year at keeping my business",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_585123
+GOLD_16,"@SpotifyCares someone has been using my account, I have songs I havent added to my playlist. And I get emails in different languages.",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_765659
+GOLD_17,"@SpotifyCares i downloaded the app to create an account,and it wont let me??i tap the button and nothing is happening,yet i redownloaded the app again and same things happening",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2755883
+GOLD_18,@spotifycares there’s an unknown device using and interrupting my account. How can I remove it from Spotify connect?,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1754509
+GOLD_19,@SpotifyCares I have no email this is laughable,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_946760
+GOLD_20,@115888 I want to do this but what if I don't have a Hulu account would I use my Spotify information to log in?,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_189899
+GOLD_21,"@SpotifyCares No, sorry. Because it suggests resetting my password – which doesn't work. See below. https://t.co/NVRmXKyZR0",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1265635
+GOLD_22,"@115888 my account has been hacked on three separate occasions, most recently today (fixed it on my own). What's up with your security?",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2077812
+GOLD_23,Why @SpotifyCares? Can’t even log in? ☹️ https://t.co/biz3eUQxK5,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2264753
+GOLD_24,@116130 can't sign into my account stupid no help whatsoever 😠,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_2019705
+GOLD_25,@SpotifyCares i can't sign in,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1013277
+GOLD_26,@SpotifyCares Router restarted. Only able to login if not connected to WiFi. IT dept says “it’s a known Spotify issue” 🙄🤷🏼‍♀️ Works fine on other WiFi’s.,account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1739232
+GOLD_27,"@SpotifyCares someone is constantly using my account, so I can't use it. I didn't give my login info to anyone. How do I lock them out?",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1949275
+GOLD_28,"@SpotifyCares I log in to Spotify thru FB, so changed my FB password but it hasn't worked. Any ideas how can I fix this? Thanks.",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_813540
+GOLD_29,"@115888 I'm trying to update my country on my account from SE to the USA and there seems to be a bug, please help!",account_access,Resolve based on account_access,,normal,keyword_heuristic,CASE_1427226
+GOLD_30,@115888 update for iPhoneX on its way? ;-),app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1587589
+GOLD_31,@SpotifyCares Hi spotify crashes unexpectly these days and now don't load (no error page only blank page),app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1688029
+GOLD_32,"@SpotifyCares It did not change anything. I believe there was an update last week? I forget. I tried changing storage to internal, says that something may be wrong with my SD card, but, it seems to work with everything else just fine.",app_bug,Resolve based on app_bug,,difficult,keyword_heuristic,CASE_2110166
+GOLD_33,"@SpotifyCares I am unable to ""share"" anything. The app crashes when I try",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_839942
+GOLD_34,@115888 ur app on Xbox is tripping after that update #XboxOne,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2905919
+GOLD_35,"@SpotifyCares dis/reconnecting helped, thank you! but #Spotify never updated list after initial link. Will I️ have to do this everytime? 🤔",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_665730
+GOLD_36,@SpotifyCares Error 408 telling me I need to modify my country. I am in france and my profile is set to France in the settings. What to do?,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2024785
+GOLD_37,"@SpotifyCares Nope, afraid not - I'm now up to 12, a couple of restarts and update to 1.0.65.320.gac7a8e02 later ...",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_327171
+GOLD_38,@SpotifyCares macOS 10.13.1 update seems to have solved the issue. Thanks again!,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1764650
+GOLD_39,"@SpotifyCares Sure, it’s Spotify 8.4.25.906 on iOS 11.0.3. Not a new issue though, followed me through several updates.",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1473898
+GOLD_40,"@SpotifyCares I contributed to an abandoned thread on your forums about it with more detail. https://t.co/VMz5LcGtgb iPhone 7 with latest stable iOS, and 2014 iMac with latest stable macOS. Always install software updates right away, too.",app_bug,Resolve based on app_bug,,difficult,keyword_heuristic,CASE_2565921
+GOLD_41,"@125633 Waiting for your Android App, gonna be addicted to it when it comes out 😅 Any update on that ? Or release date ? 😊",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2608279
+GOLD_42,@115888 your Android app crashes when you try to share music. You should get this fixed.,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1075623
+GOLD_43,"@SpotifyCares I'm running Windows 10 Home. My Spotify version is whatever is available through the Windows store, fully updated.",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1034826
+GOLD_44,@115888 are yous getting a new format? Earlier on today I updated and the cover art was on the whole screen but now it's gone?,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_58923
+GOLD_45,@SpotifyCares I’m on the latest version updated for iPhone X. These issues were present prior to the update for me as well.,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2646371
+GOLD_46,@SpotifyCares do you know when Fresh Finds Six Strings will be updated this week? It’s usually updated every Tues. https://t.co/UnvkpPpQbh https://t.co/wZGHMMuV2p,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_236285
+GOLD_47,"@SpotifyCares iOS 11.0.3 update, Spotify is 8.4.22.515 thanks",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_898868
+GOLD_48,"@SpotifyCares So, you are human. Now update me on the status of the Touch Preview issue. You have received one month of complaints. What are next steps.",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_211367
+GOLD_49,@SpotifyCares @115888 please imbed your ads differently/make them work better. They're unbelievably glitchy,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2025468
+GOLD_50,Hey @SpotifyCares app crashes on iOS 11.0.3 after liking a song in discover weekly https://t.co/60Yef93OzA,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1915067
+GOLD_51,@117153 Spotify has logged me out and I keep getting a dns error... what to do? https://t.co/fcqiHwcs87,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1869176
+GOLD_52,@115888 can y'all update red velvet's discography already? why is rebirth still their most recent album?,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2641119
+GOLD_53,@SpotifyCares I often get this error on my machine when trying to launch Spotify. It is always NOT running (verified in Task Manager) https://t.co/Onu1vHqI5C,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2029932
+GOLD_54,"@SpotifyCares Logged out/logged back in and restarted the computer, still get the same error message. Restarting my phone didn't do anything either.",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_831615
+GOLD_55,@115888 i can’t search for songs in the app... it only says an error occurred try again...,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2917870
+GOLD_56,"@SpotifyCares No it did nothing 😥 I also tried uninstalling, wiping the cache of the phone and reinstalling but it still crashes",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_494254
+GOLD_57,"@SpotifyCares Is it a one time thing, or will it ever update?",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_1200637
+GOLD_58,"@115888 @SpotifyCares @117168 
+
+https://t.co/C1nljwrpLh
+Updated: 2016-11-18
+
+More like @11247'tCare",app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_203131
+GOLD_59,@115888 @SpotifyCares Your new app looks great on iPhone x! Thanks for the update!,app_bug,Resolve based on app_bug,,normal,keyword_heuristic,CASE_2610825
+GOLD_60,@SpotifyCares hello. trying on Firefox and via app on android to activate 3 month premium trial using PayPal... just loops back to start and asks me again to proceed to payment when I've already confirmed on PayPal suite.,billing_issue,Resolve based on billing_issue,,difficult,keyword_heuristic,CASE_645103
+GOLD_61,"@spotifycares Please help. I'm being charged twice a month, but only have one account. How can I locate the second account that's charging to my visa? I've tried suggestions on your help page and am stumped.",billing_issue,Resolve based on billing_issue,,difficult,keyword_heuristic,CASE_2708590
+GOLD_62,"I just realised I am being charged for a Spotify account I do not have, please help @SpotifyCares",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2005579
+GOLD_63,"@115888 @116130 Why is it im only allowed to use my Spotify abroad for only 14 days? I pay for it, thats a fucking joke https://t.co/kKwVhASpQH",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_959420
+GOLD_64,"@115888 Rp 4.990 using credit card? please i think most of spotify user are student and teenager. dear spotify id, please don't be like this",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_77698
+GOLD_65,@SpotifyCares Recommend what exactly? It’s it’s been escalated and I’ve given them a solution and they ignore me. I WANT MY MONEY!,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1926366
+GOLD_66,@spotifycares why have I been getting charged twice a month from you guys? :/,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2438682
+GOLD_67,@SpotifyCares excuse I got charged $10 when I have the student discount,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_783560
+GOLD_68,@115888 You what would be great? If you could pay the monthly via Google play wallet.,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2813982
+GOLD_69,"@SpotifyCares , Why is it that my account was charged 9.99 , but I no longer have premium. (I have bank statements to prove)",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1118832
+GOLD_70,@SpotifyCares my bank statement says that my payment went through but I still can't use Spotify premium features :(,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2497533
+GOLD_71,"@SpotifyCares because a kick drum or bass line imposing a limit that affects the vocal frequencies is horrible to listen to. As a premium user I don't really like paying for a poor level of sound quality. Normalise volume makes it worse, obviously. An EQ is massively needed too https://t.co/Rg2w2BTxPa",billing_issue,Resolve based on billing_issue,,difficult,keyword_heuristic,CASE_910871
+GOLD_72,why does spotify keep undownloading all my songs i don’t pay 9.99 a month for this @115888 sort it out,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1963693
+GOLD_73,"@SpotifyCares Hi! My Spotify account got deactivated because I didn’t pay for this month. I can’t login, can’t pay. What to do?",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1858734
+GOLD_74,@SpotifyCares Sorry- can’t vote because I don’t have an account. Will have to spend my money somewhere else. Thanks for the quick response!,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1099901
+GOLD_75,"@SpotifyCares description of payment is Spotify P03893955E, but I never registred my card, so it might be hacked or I dont know.",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2056390
+GOLD_76,"@SpotifyCares been charged £9.99 today but switched to a £4.99 student account half an hour after I was charged, any chance I can just be charged £4.99 this month? if you can dm me that'd be good",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2736585
+GOLD_77,@117153 @SpotifyCares Lots of people having payment issues,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_115240
+GOLD_78,"@115888 @SpotifyCares I mean, at least with fb/twitter I get that my data pays for the “free” product. But Spotify costs actual money.",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2139030
+GOLD_79,@115888 @SpotifyCares Help! I signed up for Spotify for Students but I was charged twice at the same time :/ What can I do?,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2259677
+GOLD_80,@115888 pissed to discover there's a download limit. Seems unfair to pay for a service that's supposed to provide all music and just don't.,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1203966
+GOLD_81,@SpotifyCares How to change the country ? I have moved to UK from NZ but it did nit allow me to change it and did not allow me to my premium membership using a UK credit card ?!,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_111987
+GOLD_82,Fuck you @115888 what am I paying for 😩 https://t.co/zSvEBljzrf,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_790440
+GOLD_83,@115888 I wish I didn't have to push a button for a small ad for 30 min ad free. My hands aren't always free to push. But I'm not paying cause I can't always listen,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2175458
+GOLD_84,"@115888 Of course, I was charged the 15 Euros anyway, even though I can probably never use the extra features. Great way to ruin a nice sunday!",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1941061
+GOLD_85,"@SpotifyCares ...I'm just one guy with an iPhone 4 but if you go look at your stats of users who installed on iPhone 4, how many of them had paying subscriptions which ended once they learned the app no longer works? Its bad practice imo, you should never be too big too care about customers.",billing_issue,Resolve based on billing_issue,,difficult,keyword_heuristic,CASE_1959330
+GOLD_86,@SpotifyCares why did it charge me when it started a free trial? Got spotify today and it said i would get a free trail.,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_2364812
+GOLD_87,@SpotifyCares Hi there. I've been overcharged this month - how do I go about getting a refund?,billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_1795764
+GOLD_88,"@SpotifyCares I was charged $4.99 for student spotify and i don’t get it, its annoying how this stuff keeps happening; can you please DM me!",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_58927
+GOLD_89,"@115888 Bring back your NUS partnership, my education doesn't support UniDays and I'm not paying full price when it should be half price 😆",billing_issue,Resolve based on billing_issue,,normal,keyword_heuristic,CASE_58300
+GOLD_90,@115888 hi hello when are you gonna give what all the lesbians deserve?? and by that i mean the song 'she keeps me warm' by mary lambert on your platform,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_569618
+GOLD_91,@115888 when are y'all gonna upload red velvet's new album?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2633293
+GOLD_92,@SpotifyCares when I'm listening to a specific album I keep getting recommended tracks and can't listen to the actual album 😩,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2314339
+GOLD_93,I kinda hate how @115888 decided to remove the long-press-to-preview feature. 😒,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_129765
+GOLD_94,@SpotifyCares @115888 when are you finally going to release the new #spotify app for our #LG smart tv?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2002476
+GOLD_95,"@115888 you should add a feature that allows you to cross fade between songs by tapping and holding the next song button. 
+       Sincerely,
+            Person that never lets songs finish",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_497727
+GOLD_96,"Dear Internet, can someone tell me when @118062 #Reputation will be on @115888? Sincerely, anxiously waiting.",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2321772
+GOLD_97,"@115888 : Music for everyone... but russians? When will you make a version for my country? Why should we use vpn? Zaebali, blyad'.",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1840367
+GOLD_98,@SpotifyCares if you care please add Expensive Girl by Kim Namjoon onto Spotify,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_339551
+GOLD_99,Yes hello @115888 please add bon ivers cover of I Can't make you Love Me,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2519551
+GOLD_100,"@SpotifyCares No, I'm hoping you could add Aaliyah's last few albums. You currently only have her first.",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2295012
+GOLD_101,@SpotifyCares pls add Earned it from Chief Keef,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2366376
+GOLD_102,@SpotifyCares Awesome! I was looking forward to the show and got a little concerned when @33468 wasn't listed. Glad that'll get fixed,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_968726
+GOLD_103,When you watch the “short” video to get 30 mins of ad free music and then 10 mins later you get an ad. @115888 https://t.co/08f0utnhgY,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1666821
+GOLD_104,"@SpotifyCares Fingers crossed for sure. It's some pretty obscure content, honestly. You have most of the artists, but certain albums are missing. The Explorers score by Jerry Goldsmith, for example. Here's a full list. A lot is missing from the catalog https://t.co/MZO4SJCzw1",feature_inquiry,Resolve based on feature_inquiry,,difficult,keyword_heuristic,CASE_2404024
+GOLD_105,@115888 when is your app going to work properly with iOS 11 🤷🏻‍♂️ hasn’t been working properly since it came out 😩 https://t.co/9vBgMUUGcY,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1313134
+GOLD_106,@SpotifyCares when is Spotify going to be available in Egypt?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_141168
+GOLD_107,"@SpotifyCares No luck. FYI, this problem came to my attention when the entire Katy Perry library showed up as unavailable on the desktop.",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_378046
+GOLD_108,@SpotifyCares @584088 You reply to people everyday regarding this issue. Surely that's enough to know people want this feature. So just put it back.,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2545909
+GOLD_109,@115888 will the Xbox app ever have genius lyrics compatibility?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_968803
+GOLD_110,"I really wish @115888 had a feature that prevented what I listen to when sleeping from affecting my Discover Weekly, Release Radar, Daily Mixes, etc. 
+
+I like a good ambient song as much as the next sleep-seeking person, but not that much.",feature_inquiry,Resolve based on feature_inquiry,,difficult,keyword_heuristic,CASE_2714216
+GOLD_111,When is Reputation going to be on Spotify?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2505227
+GOLD_112,@147836 When will Spotify come to India?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2544106
+GOLD_113,@115888 when will #reputation be added?? Really want to listen to it and I can't find it anywhere 😣,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2239760
+GOLD_114,"@SpotifyCares Yes correct, when share directly from Spotify app",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1304772
+GOLD_115,@115888 why??and when??😡😡 https://t.co/jwqbl6pVaU,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1033326
+GOLD_116,@115888 can you add iPhone X support?,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1664967
+GOLD_117,@SpotifyCares When you guys gonna launch in India??,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_2734636
+GOLD_118,@SpotifyCares Please help me. How do i change my name on Spotify? I made this when I was like 11 and I need help. https://t.co/FdSLsT1RFl,feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1618073
+GOLD_119,"@SpotifyCares 2: further, why is Taylor Swift a suggested track when I'm listening to Avenged Sevenfold?",feature_inquiry,Resolve based on feature_inquiry,,normal,keyword_heuristic,CASE_1739263
+GOLD_120,"@SpotifyCares C'mon guys. Give me the hard sell, I'm thinking about switching from @115948 to you. Why should I? 🤔",other,Resolve based on other,,normal,keyword_heuristic,CASE_1596825
+GOLD_121,Why is @32623 not on @115888?,other,Resolve based on other,,normal,keyword_heuristic,CASE_726433
+GOLD_122,Removing the touch preview was probably the dumbest thing you’ve done to the app. The touch preview was awesome BRING IT BACK @SpotifyCares,other,Resolve based on other,,normal,keyword_heuristic,CASE_1643544
+GOLD_123,"@115888 Many thanks @SpotifyCares. Really hope a name change is a simple thing. We know it's Spotify for Xbox One, as we're using it on Xbox One 😁",other,Resolve based on other,,normal,keyword_heuristic,CASE_1220141
+GOLD_124,@SpotifyCares Hey! The last time I sent you the artist URI link you guys removed the other artist that was being linked to it. Can we do it again? :),other,Resolve based on other,,normal,keyword_heuristic,CASE_936218
+GOLD_125,I ran out of room for songs on @115888.🤦🏻‍♀️ I have a problem.,other,Resolve based on other,,normal,keyword_heuristic,CASE_2307193
+GOLD_126,@SpotifyCares Never mind I'll just listen to Switchfoot or something,other,Resolve based on other,,normal,keyword_heuristic,CASE_1884563
+GOLD_127,@SpotifyCares This feels like the opposite of what I'm asking for,other,Resolve based on other,,normal,keyword_heuristic,CASE_974525
+GOLD_128,@SpotifyCares need help!! iOs app down for 3 days!!,other,Resolve based on other,,normal,keyword_heuristic,CASE_2715676
+GOLD_129,@115888 @150412 @spotifycares,other,Resolve based on other,,normal,keyword_heuristic,CASE_1827571
+GOLD_130,@115888 9 pesos?,other,Resolve based on other,,normal,keyword_heuristic,CASE_129756
+GOLD_131,@SpotifyCares I've been a Spotify user for a long time now. It should know me by now,other,Resolve based on other,,normal,keyword_heuristic,CASE_2759240
+GOLD_132,where is gorgeous why am I being robbed of so much music tonight @115888,other,Resolve based on other,,normal,keyword_heuristic,CASE_1872721
+GOLD_133,@SpotifyCares He did all that previously. Looks like the flow option did the trick. Thanks!,other,Resolve based on other,,normal,keyword_heuristic,CASE_2412668
+GOLD_134,@115888 @SpotifyCares Please fix this problem! https://t.co/iZScenPkmM,other,Resolve based on other,,normal,keyword_heuristic,CASE_1279195
+GOLD_135,"งงใจเว่อ ไฝว้กับ @115888 ตั้งแต่เมื่อคืนละนะยังแก้ปัญหาไม่ได้สักที 
+I need some helpssssssss! 😩",other,Resolve based on other,,normal,keyword_heuristic,CASE_975193
+GOLD_136,@SpotifyCares I tried to fill out that form and it kept rejecting the information I included. I have no idea why. I’ve given you both the artist page and the nature of the problem. Why isn’t that enough?!,other,Resolve based on other,,difficult,keyword_heuristic,CASE_2110151
+GOLD_137,@SpotifyCares why can’t I save a song from my lock screen,other,Resolve based on other,,normal,keyword_heuristic,CASE_1815849
+GOLD_138,"@SpotifyCares Aw wow, you really do care. I'm touched.",other,Resolve based on other,,normal,keyword_heuristic,CASE_1559459
+GOLD_139,"Why @115888 don't have some songs on their streaming service? Like, real question… like, old ass songs not even new…",other,Resolve based on other,,normal,keyword_heuristic,CASE_2622896
+GOLD_140,Thanks. Try harder plz😉 https://t.co/Kf9KSF50hJ,other,Resolve based on other,,normal,keyword_heuristic,CASE_1477056
+GOLD_141,@SpotifyCares I moved to another country and I can't change my location!!! Help!,other,Resolve based on other,,normal,keyword_heuristic,CASE_1607088
+GOLD_142,@115888 can we please get the Still Crazy soundtrack?,other,Resolve based on other,,normal,keyword_heuristic,CASE_840269
+GOLD_143,"@SpotifyCares I tried, but nope, it didn't help.",other,Resolve based on other,,normal,keyword_heuristic,CASE_2560561
+GOLD_144,"Hey @115888 what's the deal with having the last 2 Simpsons CDs, but not Tunes in the Key of Springfield? That's got almost all the greatest hits on there.",other,Resolve based on other,,normal,keyword_heuristic,CASE_2114172
+GOLD_145,"@SpotifyCares Yeah I know... why do you guys have that limit ?? I love music and listen to tons and reached the limit the other day and now I’m not sure what to do... is there any way to save more than 10,000 songs ??",other,Resolve based on other,,difficult,keyword_heuristic,CASE_2110112
+GOLD_146,"@SpotifyCares No, still the same.",other,Resolve based on other,,normal,keyword_heuristic,CASE_2240446
+GOLD_147,@SpotifyCares That fixed It! ☺,other,Resolve based on other,,normal,keyword_heuristic,CASE_128858
+GOLD_148,Why did you take YBN Nahmir off @115888 ?,other,Resolve based on other,,normal,keyword_heuristic,CASE_2315972
+GOLD_149,@SpotifyCares I have no idea but I think more,other,Resolve based on other,,normal,keyword_heuristic,CASE_2182988
+GOLD_150,@SpotifyCares why does my sister have a section where she can see what she has downloaded but I don’t have the same feature? It would be a nice thing to have and I don’t understand why only certain people get that,playback_issue,Resolve based on playback_issue,,difficult,keyword_heuristic,CASE_2377285
+GOLD_151,"@115888 @117168 @SpotifyCares very much enjoy the Discover Weekly feature, but think it could be much improved if users had option to remove/👎 songs they don't like, which could then inform future weeks' playlists (fewer songs from those artists, etc)",playback_issue,Resolve based on playback_issue,,difficult,keyword_heuristic,CASE_2442014
+GOLD_152,@115888 web player just signed me out randomly and now it won't work. #Mondays,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_2026164
+GOLD_153,Hey @115888 the only song I'm currently able to play is Island in the Sun by Weezer &amp; anything else stops the music. Is this a known issue?,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1927000
+GOLD_154,Is there a reason none of Miley Cyrus' tracks will play on @115888?... not even asking for a friend. 🙈,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_2338000
+GOLD_155,@Spotifycares I've started getting this popup on iPhone in my car. whatever I'm playing stops and something random starts.  What's this? https://t.co/SQMkXI8CLe,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1806010
+GOLD_156,@SpotifyCares just removed all my downloads again,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1199576
+GOLD_157,"@SpotifyCares Hi there, the Spotify app has stopped working for me, giving me an error message. I’ve restarted my phone. Closed and opened the app. Restarted my internet. Tried on 4G. To no avail. Looks like the web player is affected too. Any ideas what’s happening?",playback_issue,Resolve based on playback_issue,,difficult,keyword_heuristic,CASE_2917902
+GOLD_158,"@SpotifyCares desktop app works fine, and does seem to have the random unresponsiveness thats normal with web player either",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_187632
+GOLD_159,@SpotifyCares Been listening to my 'Time Capsule' playlist all evening. So good. 👌🏻,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_695450
+GOLD_160,"@SpotifyCares it's was little weird, soon as I logged in it downloaded a file? But it's working again now!",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1941787
+GOLD_161,"@SpotifyCares I'm using a Galaxy 8 and the latest app update for Spotify. Everytime I play a Demi Lovato song, it says it's unavailable.",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_418876
+GOLD_162,"Hi, @115888 folks. Hope you are having a lovely morning. Can we get a ""Add to Playlists"" (plural) option so we don't have to close the menu each time and redo each add individually? Pretty please and thank you. 🙏🏽",playback_issue,Resolve based on playback_issue,,difficult,keyword_heuristic,CASE_2776190
+GOLD_163,"@115888 why is the web player not working?? Keeps stopping randomly and won't play, driving me crazy 😤😤",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_708722
+GOLD_164,@115888 you need a “Select All” and “Delete Selected” option for editing playlists #pls,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1766596
+GOLD_165,@SpotifyCares The full playlists have gone!,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_982142
+GOLD_166,I’m mad @115888 took away the shake to go to the bottom of your playlist feature....I loved that,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_2755855
+GOLD_167,"my main @115888 playlist and another from year 10 just got deleted for no reason, simply why does shit like this keep happening",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_2479209
+GOLD_168,"Why isn't my @115888 app working?? Now playing isn't showing up and if I pause my lockscreen, the app closes! I still have iOS10 btw",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1973839
+GOLD_169,"@115888 I’m just a girl standing in front of an app, asking it to play the Bruce live in Dublin album that I love ❤️",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1132221
+GOLD_170,.@SpotifyCares @115888 will my time capsule personalized playlist refresh after a week?? I just found it and I don’t ever wanna lose it!!,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1195263
+GOLD_171,@SpotifyCares Well I haven’t downloaded that many songs and it’s saying I’ve reached my download capacity 🙂,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1064073
+GOLD_172,@115888 u guys should update and give users the ability to delete songs from the search bar of our playlists so we don’t have to scroll through a thousand songs to get rid of one,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_83666
+GOLD_173,@SpotifyCares Hello! The most basic kind. I want to sort my playlists by A-Z!,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_228081
+GOLD_174,@115888 Will we get a new Stranger Things 2 playlist? ;),playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1363413
+GOLD_175,se acaba de borrar mi playlist fav de spotify y mejor mátenme yaaaaaaaaaa :(,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_423864
+GOLD_176,"The biggest things @115888 could do to keep me from moving: tv app, watch app/remote, smarter radio/magic playlists.",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_809608
+GOLD_177,um could my music not stop in the middle of zayn's high note that would be appreciated @115888,playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1098203
+GOLD_178,"@115888 And that doesn't help because I wanted to listen to Blade Runner 2049 soundtrack, which I had downloaded just 3 days ago. :(",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_1786767
+GOLD_179,"@115888, I love you, but I implore you! Can you make a special button for ""never play this song to me ever again in the history of ever.""",playback_issue,Resolve based on playback_issue,,normal,keyword_heuristic,CASE_2777745
+GOLD_180,"@SpotifyCares despite being removed from my friend's family account, when i go onto spotify her music plays on my phone, &amp; vice versa! help?",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1864567
+GOLD_181,@115888 @spotifycares Why don't you offer the same student discount to the teachers that teach the students? I'm sure @124439 would help.,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_38943
+GOLD_182,@SpotifyCares tried clicking a link in an email to extend my Student discount &amp; it brings me to the regular page w/ no instructions or help,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1840165
+GOLD_183,@117153 my premium account doesn’t work anymore... how can I fix this?,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2075578
+GOLD_184,"@SpotifyCares hi, i have premiun family plan subscriptions, however it suddenly change to free. Please explain why?! I want to cancel it.",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1938701
+GOLD_185,I am a student majoring in Computer Science and crazy about Spotify.  May I due some volunteer programming during the Winter? @SpotifyCares,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1460704
+GOLD_186,@115888 Is it possible for people to steal service for family premium? I just looked at my account and had 5 people in my family that I've never heard of. They've probably been using my account for a while now and I just realized it. I've taken down their emails. :(,subscription_issue,Resolve based on subscription_issue,,difficult,keyword_heuristic,CASE_408932
+GOLD_187,Hey @115888 if you ever put Halsey on my discover weekly again I'm canceling my subscription. Thanks!,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1960636
+GOLD_188,"@115888 @116130 ads are playing back considerably louder than music even with normalise enabled - it's an unpleasant shock every time and fills me with resentment for the brand, not the desire to upgrade to premium. It's also damaging to hearing. Please fix.",subscription_issue,Resolve based on subscription_issue,,difficult,keyword_heuristic,CASE_177415
+GOLD_189,@117153 My premium account is still missing,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_116629
+GOLD_190,"@SpotifyCares I bought Premium on my account.
+On my account settings it says i’ve Premium but it says in have the Free version (iOS/Mac app)",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1961793
+GOLD_191,@SpotifyCares I’m having trouble with my family plan I’ve tried to add my girlfriend but it keeps asking her to re-enter our address.,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1272289
+GOLD_192,"@SpotifyCares trying to convert my account to the student bundle, but I get an error when clicking “get started”.",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1116683
+GOLD_193,"hey @SpotifyCares I wanted to cancel my subscription cause I can't afford it on my student budget, but instead y'all deactivated my account?
+
+I was hoping to start a family plan in January ;-;",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2293054
+GOLD_194,@SpotifyCares can my daughter transfer her huge music collection on playlists etc to our Premium family account?,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2239738
+GOLD_195,"@SpotifyCares hi, i just created a spotify account and it doesnt give me the 7 day trial premium option, why?",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2876120
+GOLD_196,@115888 Hi! Is this offer for US students only?,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1386934
+GOLD_197,@115888 - Tired of Prem Family Member being able to login via web but Windows and iPhone App logins failing.  Not useable.,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1815121
+GOLD_198,hey @SpotifyCares i just joined a family premium subscription but the app still says my acc isnt premium 🙃,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1871622
+GOLD_199,@117153 my account switched to free from premium,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2762996
+GOLD_200,"@SpotifyCares Hi, my Premium account just got hacked, can you please indicate how to restore service? Thanks.",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1013194
+GOLD_201,@SpotifyCares I got Spotify family and whenever I try to add a account and redeem it says it's not valid. What do I do?,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1265640
+GOLD_202,"@SpotifyCares I have Spotify premium and have playlists downloaded but when using bus WiFi none of my downloaded playlists show up and it won’t connect, even though the WiFi is working fine https://t.co/rXZS7xsCZ2",subscription_issue,Resolve based on subscription_issue,,difficult,keyword_heuristic,CASE_124148
+GOLD_203,"@SpotifyCares I'm having trouble adding a family member to my Family Plan, the link goes to an ""Something's wrong, try again"" error, help me",subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2482210
+GOLD_204,@115888 just got  family package and invited my family and nothing is workin keeps askin to get premium i uninstalled and logged back in,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_1999877
+GOLD_205,@115888 @SpotifyCares Is it possible to deactivate my premium account and create a new account and 'redeem' my premium status?This is due to having problems with the street name and number feature in prenium for family.,subscription_issue,Resolve based on subscription_issue,,difficult,keyword_heuristic,CASE_2275415
+GOLD_206,@SpotifyCares How to add an account to a new phone as part of family plan?,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_2816730
+GOLD_207,@SpotifyCares I have a spotify subscription but it was set up a long time ago with my email that isn't associated with my University email. I wanted to see if I could change my email to my universities email so I can get the Student discount which includes Hulu. Is this possible?,subscription_issue,Resolve based on subscription_issue,,difficult,keyword_heuristic,CASE_2364834
+GOLD_208,@Spotifycares I can’t join my family plan until I have an email to send the invitation to!! Please help!,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_598529
+GOLD_209,@115888 My kids wanted premium but your student deals are only for college/ uni kids. Won't you consider the younger kids that are addicted to Spotify too?,subscription_issue,Resolve based on subscription_issue,,normal,keyword_heuristic,CASE_12073

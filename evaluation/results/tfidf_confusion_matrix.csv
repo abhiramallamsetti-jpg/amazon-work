@@ -1,0 +1,8 @@
+true_intent,account_access,app_bug,billing_issue,feature_inquiry,other,playback_issue,subscription_issue
+account_access,24,1,0,0,4,1,0
+app_bug,0,23,0,0,7,0,0
+billing_issue,0,0,28,0,2,0,0
+feature_inquiry,0,0,0,14,16,0,0
+other,0,0,0,0,30,0,0
+playback_issue,0,0,0,0,0,30,0
+subscription_issue,0,0,0,0,1,1,28

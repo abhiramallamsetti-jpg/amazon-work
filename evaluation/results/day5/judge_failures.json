@@ -1,0 +1,118 @@
+[
+  {
+    "case_id": "CASE_1168549",
+    "customer_message": "@SpotifyCares hi, I can't play Paul McCartney songs on desktop or phone but I can through Sonos using same account. Any ideas?",
+    "predicted_intent": "playback_issue",
+    "generated_reply": "Hi there, I'm sorry to hear you're having trouble playing Paul McCartney songs on your desktop and phone, especially since it's working on Sonos. That's definitely not the experience we want for you.\n\nThis sounds like it requires a closer look into your account and device specifics. We're escalating this to our technical team to investigate further and will get back to you as soon as we have more information. Thank you for your patience.",
+    "escalation_decision": "ESCALATE",
+    "judge_result": {
+      "error": "Invalid JSON returned by LLM",
+      "status": "failed",
+      "raw": "```json\n{\n  \"relevance\": {\n    \"score\": 5,\n    \"reason\": \"The reply accurately acknowledges and summarizes the customer's specific problem regarding"
+    }
+  },
+  {
+    "case_id": "CASE_2158619",
+    "customer_message": "@SpotifyCares I have the student discount for spotify premium and I got charged double this month and my hulu stopped working, what can I do to fix it???",
+    "predicted_intent": "billing_issue",
+    "generated_reply": "Hi there! I'm sorry to hear you've been charged twice this month and that your Hulu access isn't working. We understand how frustrating that can be. To help us securely look into your account details and investigate this for you, please send us a private message with more information. We'll be able to assist you further there.",
+    "escalation_decision": "AUTO_HANDLE",
+    "judge_result": {
+      "error": "Invalid JSON returned by LLM",
+      "status": "failed",
+      "raw": "{\n  \"relevance\": {\n    \"score\": 5,\n    \"reason\": \"The reply directly addresses both the double charge and the Hulu access issue mentioned by the customer.\""
+    }
+  },
+  {
+    "case_id": "CASE_2363320",
+    "customer_message": "@SpotifyCares Pass a P45 or whatever the equivalent is onto them and hire folks that can get a damn update out on time #raging",
+    "predicted_intent": "app_bug",
+    "generated_reply": "I'm very sorry to hear about your frustration regarding app updates. I understand how important it is to have a reliable and up-to-date experience. Your feedback is valuable to us, and we're always working to improve. We'll make sure to pass your comments along to the relevant team.",
+    "escalation_decision": "ESCALATE",
+    "judge_result": {
+      "error": "Invalid JSON returned by LLM",
+      "status": "failed",
+      "raw": "```json\n{\n  \"relevance\": {\n    \"score\": 5,\n    \"reason\": \"The reply directly addresses the customer's frustration regarding 'app updates,' which is"
+    }
+  },
+  {
+    "case_id": "CASE_113839",
+    "customer_message": "@SpotifyCares yes I already did that before I asked my initial question (about importing smart playlists).",
+    "predicted_intent": "playback_issue",
+    "generated_reply": "Thanks for letting us know you've already tried that. To make sure we're on the right track, could you please clarify your initial question about importing smart playlists? We'd be happy to look into this for you.",
+    "escalation_decision": "AUTO_HANDLE",
+    "judge_result": {
+      "error": "Invalid JSON returned by LLM",
+      "status": "failed",
+      "raw": "```json\n{\n  \"relevance\": {\n    \"score\": 4,\n    \"reason\": \"The reply acknowledges the customer's 'already did that' and correctly identifies"
+    }
+  },
+  {
+    "case_id": "CASE_1340968",
+    "customer_message": "@SpotifyCares UK",
+    "predicted_intent": "other",
+    "generated_reply": "Hi there! We're here to help. Could you please tell us a bit more about what you need assistance with?",
+    "escalation_decision": "AUTO_HANDLE",
+    "judge_result": {
+      "error": "Invalid JSON returned by LLM",
+      "status": "failed",
+      "raw": "{\n  \"relevance\": {\n    \"score\": 4,\n    \"reason\": \"The customer's message is extremely brief ('@SpotifyCares UK'). The AI's"
+    }
+  },
+  {
+    "case_id": "CASE_1574544",
+    "customer_message": "@SpotifyCares Thank you for that.. But we will wait Day6 ✨ @18284",
+    "predicted_intent": "other",
+    "generated_reply": "We're always working to bring you more of the music you love! We'll be sure to pass your interest in Day6 along to the right team.",
+    "escalation_decision": "AUTO_HANDLE",
+    "judge_result": {
+      "error": "Invalid JSON returned by LLM",
+      "status": "failed",
+      "raw": "```json\n{\n  \"relevance\": {\n    \"score\": 5,\n    \"reason\": \"The reply directly addresses the customer's expressed interest and anticipation for Day6"
+    }
+  },
+  {
+    "case_id": "CASE_292972",
+    "customer_message": "@SpotifyCares you just added this album but it’s not a 2017 release https://t.co/4v2KKxAOpu",
+    "predicted_intent": "feature_inquiry",
+    "generated_reply": "Hey there! Thanks for bringing this to our attention. We're always working to ensure the accuracy of the information on our platform.",
+    "escalation_decision": "AUTO_HANDLE",
+    "judge_result": {
+      "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "status": "failed"
+    }
+  },
+  {
+    "case_id": "CASE_1217118",
+    "customer_message": "@SpotifyCares  https://t.co/kFCBiwLBYq",
+    "predicted_intent": "other",
+    "generated_reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "escalation_decision": "ESCALATE",
+    "judge_result": {
+      "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "status": "failed"
+    }
+  },
+  {
+    "case_id": "CASE_1131954",
+    "customer_message": "@SpotifyCares Nope. I've tried",
+    "predicted_intent": "other",
+    "generated_reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "escalation_decision": "ESCALATE",
+    "judge_result": {
+      "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "status": "failed"
+    }
+  },
+  {
+    "case_id": "CASE_2920725",
+    "customer_message": "Spotify down? #Spotify :O :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O @115888 https://t.co/gAKJKKcpPB",
+    "predicted_intent": "other",
+    "generated_reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "escalation_decision": "ESCALATE",
+    "judge_result": {
+      "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "status": "failed"
+    }
+  }
+]

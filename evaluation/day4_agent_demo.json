@@ -1,0 +1,1045 @@
+[
+  {
+    "customer_message": "Hi, I am having trouble playing a playlist on offline mode. It keeps buffering.",
+    "intent": "playback_issue",
+    "intent_confidence": 0.9987,
+    "top_intents": [
+      {
+        "intent": "playback_issue",
+        "probability": 0.9987
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0007
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0005
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0001
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0
+      },
+      {
+        "intent": "other",
+        "probability": 0.0
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_718421",
+          "customer_tweet_id": "718421",
+          "customer_message": "Nothing irritates me more than buffering songs on @115888 playlist's of mine downloaded for offline listening 🙄 esp. when I pay monthly.",
+          "brand_replies": [
+            "@292012 Hey there! Help's arrived. Can you tell us when this started happening? Was it after an app update? /CH"
+          ],
+          "brand_reply": "@292012 Hey there! Help's arrived. Can you tell us when this started happening? Was it after an app update? /CH",
+          "intent": "billing_issue",
+          "similarity_score": 0.4123,
+          "conversation_id": "718421"
+        },
+        {
+          "case_id": "CASE_1108031",
+          "customer_tweet_id": "1108031",
+          "customer_message": "@117153 i'm having a problem logging in bcoz I am in an offline mode. What should i do?",
+          "brand_replies": [
+            "@381520 @117153 Hey! We've just sent you a bit more info over DM. We'll carry on helping out there /DR"
+          ],
+          "brand_reply": "@381520 @117153 Hey! We've just sent you a bit more info over DM. We'll carry on helping out there /DR",
+          "intent": "playback_issue",
+          "similarity_score": 0.4051,
+          "conversation_id": "1108031"
+        },
+        {
+          "case_id": "CASE_1053969",
+          "customer_tweet_id": "1053969",
+          "customer_message": "@SpotifyCares I have my Spotify set to offline mode, but it's playing some songs not downloaded. Help!",
+          "brand_replies": [
+            "@369025 Hi Leslie, help's here! Can you let us know your device's make/model, operating system, and Spotify version? /GT"
+          ],
+          "brand_reply": "@369025 Hi Leslie, help's here! Can you let us know your device's make/model, operating system, and Spotify version? /GT",
+          "intent": "playback_issue",
+          "similarity_score": 0.3963,
+          "conversation_id": "1053969"
+        }
+      ],
+      "top_similarity": 0.4123,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_718421",
+        "similarity_score": 0.4123,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_1108031",
+        "similarity_score": 0.4051,
+        "intent": "playback_issue"
+      },
+      {
+        "case_id": "CASE_1053969",
+        "similarity_score": 0.3963,
+        "intent": "playback_issue"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 5.7
+  },
+  {
+    "customer_message": "Where is my order? It was supposed to arrive last week.",
+    "intent": "other",
+    "intent_confidence": 0.7879,
+    "top_intents": [
+      {
+        "intent": "other",
+        "probability": 0.7879
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0859
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0366
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0325
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0235
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0185
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0152
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_2118713",
+          "customer_tweet_id": "2118713",
+          "customer_message": "@SpotifyCares did your iPhone X arrive yet?",
+          "brand_replies": [
+            "@357225 1: Hey there! We don't have any info to share about this right now, but hopefully it'll be updated soon. We'd suggest enabling automatic...",
+            "@357225 2: downloads to get the latest update once it's available: https://t.co/vHqjftXuQ0. Let us know if we can help with anything else /MC"
+          ],
+          "brand_reply": "@357225 1: Hey there! We don't have any info to share about this right now, but hopefully it'll be updated soon. We'd suggest enabling automatic...",
+          "intent": "other",
+          "similarity_score": 0.5296,
+          "conversation_id": "2118713"
+        },
+        {
+          "case_id": "CASE_868508",
+          "customer_tweet_id": "868508",
+          "customer_message": "@SpotifyCares It's supposed to he @38267",
+          "brand_replies": [
+            "@326215 Not to worry, we'll get this reported. Good spot! Thanks for the heads up /JP"
+          ],
+          "brand_reply": "@326215 Not to worry, we'll get this reported. Good spot! Thanks for the heads up /JP",
+          "intent": "other",
+          "similarity_score": 0.458,
+          "conversation_id": "868508"
+        },
+        {
+          "case_id": "CASE_1545092",
+          "customer_tweet_id": "1545092",
+          "customer_message": "@SpotifyCares Order*",
+          "brand_replies": [
+            "@478545 1: Hi! Thanks for the feedback. We’ll get this passed onto the right team. For now, check out https://t.co/ZAlxesSOrQ for more info... /RA",
+            "@478545 2: on how info you can sort and filter your music /RA"
+          ],
+          "brand_reply": "@478545 1: Hi! Thanks for the feedback. We’ll get this passed onto the right team. For now, check out https://t.co/ZAlxesSOrQ for more info... /RA",
+          "intent": "other",
+          "similarity_score": 0.4453,
+          "conversation_id": "1545092"
+        }
+      ],
+      "top_similarity": 0.5296,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_2118713",
+        "similarity_score": 0.5296,
+        "intent": "other"
+      },
+      {
+        "case_id": "CASE_868508",
+        "similarity_score": 0.458,
+        "intent": "other"
+      },
+      {
+        "case_id": "CASE_1545092",
+        "similarity_score": 0.4453,
+        "intent": "other"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 15.8
+  },
+  {
+    "customer_message": "I was charged twice for my subscription this month. I would like a refund please.",
+    "intent": "billing_issue",
+    "intent_confidence": 1.0,
+    "top_intents": [
+      {
+        "intent": "billing_issue",
+        "probability": 1.0
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0
+      },
+      {
+        "intent": "other",
+        "probability": 0.0
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_2621337",
+          "customer_tweet_id": "2621337",
+          "customer_message": "@SpotifyCares You have charged me twice for one month - how do I get a refund?",
+          "brand_replies": [
+            "@740672 Hey Lauren! Can you DM us your account's username and email address? We'll take a look backstage /TF"
+          ],
+          "brand_reply": "@740672 Hey Lauren! Can you DM us your account's username and email address? We'll take a look backstage /TF",
+          "intent": "billing_issue",
+          "similarity_score": 0.8606,
+          "conversation_id": "2621337"
+        },
+        {
+          "case_id": "CASE_89564",
+          "customer_tweet_id": "89564",
+          "customer_message": "@SpotifyCares Why have I been charged twice for my subscription this month?",
+          "brand_replies": [
+            "@135372 Hi Marc. That doesn't sound good. Can you DM us your account's email address or username? We'll take a look under the hood /XF https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@135372 Hi Marc. That doesn't sound good. Can you DM us your account's email address or username? We'll take a look under the hood /XF https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.7955,
+          "conversation_id": "89564"
+        },
+        {
+          "case_id": "CASE_879273",
+          "customer_tweet_id": "879273",
+          "customer_message": "@SpotifyCares I was charged twice this month, how do I go about getting a refund?",
+          "brand_replies": [
+            "@328741 Hey Maíra! Can you DM us your account's username or email address? We'll see what we can do /YM https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@328741 Hey Maíra! Can you DM us your account's username or email address? We'll see what we can do /YM https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.7911,
+          "conversation_id": "879273"
+        }
+      ],
+      "top_similarity": 0.8606,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_2621337",
+        "similarity_score": 0.8606,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_89564",
+        "similarity_score": 0.7955,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_879273",
+        "similarity_score": 0.7911,
+        "intent": "billing_issue"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 5.7
+  },
+  {
+    "customer_message": "My payment method was declined when trying to renew my premium plan.",
+    "intent": "billing_issue",
+    "intent_confidence": 0.9812,
+    "top_intents": [
+      {
+        "intent": "billing_issue",
+        "probability": 0.9812
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0188
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0
+      },
+      {
+        "intent": "other",
+        "probability": 0.0
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_1806995",
+          "customer_tweet_id": "1806995",
+          "customer_message": "@SpotifyCares I'm trying to update my payment method and it keeps returning me to student premium. Help!",
+          "brand_replies": [
+            "@542873 Hi Eric! Can you try using a different browser or an incognito/private browsing window to see if that helps? Let us know how it goes /NY"
+          ],
+          "brand_reply": "@542873 Hi Eric! Can you try using a different browser or an incognito/private browsing window to see if that helps? Let us know how it goes /NY",
+          "intent": "billing_issue",
+          "similarity_score": 0.489,
+          "conversation_id": "1806995"
+        },
+        {
+          "case_id": "CASE_1190761",
+          "customer_tweet_id": "1190761",
+          "customer_message": "@SpotifyCares I'm trying to change my payment method and it won't work. Please send help!",
+          "brand_replies": [
+            "@399874 Hey, help's here! Could you send us a DM with your account's email address or username? Send us a screenshot if you're getting an error message. For security, make sure that your payment details aren't shown in full. We'll take a look /CO https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@399874 Hey, help's here! Could you send us a DM with your account's email address or username? Send us a screenshot if you're getting an error message. For security, make sure that your payment details aren't shown in full. We'll take a look /CO https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.4876,
+          "conversation_id": "1190761"
+        },
+        {
+          "case_id": "CASE_885077",
+          "customer_tweet_id": "885077",
+          "customer_message": "@115888 Is there a payment issue going on? No accounts will renew my premium",
+          "brand_replies": [
+            "@330169 Hey there! Can you DM us your account's username and email address? We'll take a look backstage /SY https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@330169 Hey there! Can you DM us your account's username and email address? We'll take a look backstage /SY https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.476,
+          "conversation_id": "885077"
+        }
+      ],
+      "top_similarity": 0.489,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_1806995",
+        "similarity_score": 0.489,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_1190761",
+        "similarity_score": 0.4876,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_885077",
+        "similarity_score": 0.476,
+        "intent": "billing_issue"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 10.2
+  },
+  {
+    "customer_message": "I cannot sign in to my account. It says my password is wrong but I know it is correct.",
+    "intent": "account_access",
+    "intent_confidence": 0.9903,
+    "top_intents": [
+      {
+        "intent": "account_access",
+        "probability": 0.9903
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0076
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0017
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0002
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0001
+      },
+      {
+        "intent": "other",
+        "probability": 0.0
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_1964368",
+          "customer_tweet_id": "1964368",
+          "customer_message": "I signed up for the free trial using the wrong email address and now I do not know how to sign in and correct the error https://t.co/WsZvDbwxuN",
+          "brand_replies": [
+            "@582375 Don't worry, we'll get this taken care of for you. Can you DM us your account's username or email address? /YM https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@582375 Don't worry, we'll get this taken care of for you. Can you DM us your account's username or email address? /YM https://t.co/ldFdZRiNAt",
+          "intent": "account_access",
+          "similarity_score": 0.5114,
+          "conversation_id": "1964368"
+        },
+        {
+          "case_id": "CASE_359908",
+          "customer_tweet_id": "359908",
+          "customer_message": "So annoyed at @SpotifyCares. I pay for Spotify premium but it says it's 'unable' to log me in with an email and password I know is correct 😡",
+          "brand_replies": [
+            "@201245 Hey Charlie! Can you DM us your account's email address and username? We'll take a look backstage /SU https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@201245 Hey Charlie! Can you DM us your account's email address and username? We'll take a look backstage /SU https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.4813,
+          "conversation_id": "359908"
+        },
+        {
+          "case_id": "CASE_1981291",
+          "customer_tweet_id": "1981291",
+          "customer_message": "@SpotifyCares why can't I sign in? I'm using the correct info 😠",
+          "brand_replies": [
+            "@132502 Hey Charley! Do you get an error message when logging in? Also, can you DM us your account's email address? We'll take a look /SJ https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@132502 Hey Charley! Do you get an error message when logging in? Also, can you DM us your account's email address? We'll take a look /SJ https://t.co/ldFdZRiNAt",
+          "intent": "account_access",
+          "similarity_score": 0.4756,
+          "conversation_id": "1981291"
+        }
+      ],
+      "top_similarity": 0.5114,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_1964368",
+        "similarity_score": 0.5114,
+        "intent": "account_access"
+      },
+      {
+        "case_id": "CASE_359908",
+        "similarity_score": 0.4813,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_1981291",
+        "similarity_score": 0.4756,
+        "intent": "account_access"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 0.0
+  },
+  {
+    "customer_message": "So basically I want to know why everything keeps stopping and also how do I get lyrics to show?",
+    "intent": "playback_issue",
+    "intent_confidence": 0.4729,
+    "top_intents": [
+      {
+        "intent": "playback_issue",
+        "probability": 0.4729
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.3456
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0762
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0385
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0298
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.027
+      },
+      {
+        "intent": "other",
+        "probability": 0.0099
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_2901253",
+          "customer_tweet_id": "2901253",
+          "customer_message": "@SpotifyCares my Spotify keeps stopping. I have already logged out of all my accounts, but it still keeps happening.",
+          "brand_replies": [
+            "@803639 Hey there, help's here! Does logging out, restarting your device, and logging back in help at all? Let us know how it goes /TF"
+          ],
+          "brand_reply": "@803639 Hey there, help's here! Does logging out, restarting your device, and logging back in help at all? Let us know how it goes /TF",
+          "intent": "account_access",
+          "similarity_score": 0.4446,
+          "conversation_id": "2901253"
+        },
+        {
+          "case_id": "CASE_67707",
+          "customer_tweet_id": "67707",
+          "customer_message": "@SpotifyCares Still no lyrics!. 😕",
+          "brand_replies": [
+            "@806637 Hey Alan, we hear you! Any updates will be posted at https://t.co/osebD49Qxe. We'd recommend voting to support the idea too /AG"
+          ],
+          "brand_reply": "@806637 Hey Alan, we hear you! Any updates will be posted at https://t.co/osebD49Qxe. We'd recommend voting to support the idea too /AG",
+          "intent": "feature_inquiry",
+          "similarity_score": 0.4161,
+          "conversation_id": "67707"
+        },
+        {
+          "case_id": "CASE_2304419",
+          "customer_tweet_id": "2304419",
+          "customer_message": "@115888 my Spotify keeps stopping and starting please sort it out",
+          "brand_replies": [
+            "@668626 Hey Gee, help's here! What device is this happening on? Also, is this happening on other devices? Keep us in the loop /MQ"
+          ],
+          "brand_reply": "@668626 Hey Gee, help's here! What device is this happening on? Also, is this happening on other devices? Keep us in the loop /MQ",
+          "intent": "playback_issue",
+          "similarity_score": 0.3991,
+          "conversation_id": "2304419"
+        }
+      ],
+      "top_similarity": 0.4446,
+      "n_results": 3
+    },
+    "decision": "ESCALATE",
+    "escalation_reason": "Multiple independent support issues detected; human review recommended. Low classifier confidence (0.47) below threshold (0.6).",
+    "reply": "Thank you for reaching out. Based on the information provided, this request needs to be reviewed by a support specialist who can access your account details. Reason: Multiple independent support issues detected; human review recommended. Low classifier confidence (0.47) below threshold (0.6).",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_2901253",
+        "similarity_score": 0.4446,
+        "intent": "account_access"
+      },
+      {
+        "case_id": "CASE_67707",
+        "similarity_score": 0.4161,
+        "intent": "feature_inquiry"
+      },
+      {
+        "case_id": "CASE_2304419",
+        "similarity_score": 0.3991,
+        "intent": "playback_issue"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 16.0
+  },
+  {
+    "customer_message": "This is ridiculous! I have paid for premium for two years and the app still crashes every single time I open it. Fix this now or I am cancelling.",
+    "intent": "subscription_issue",
+    "intent_confidence": 0.9597,
+    "top_intents": [
+      {
+        "intent": "subscription_issue",
+        "probability": 0.9597
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0219
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.014
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0017
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0015
+      },
+      {
+        "intent": "other",
+        "probability": 0.0009
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0003
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_311701",
+          "customer_tweet_id": "311701",
+          "customer_message": "@SpotifyCares The app crashes",
+          "brand_replies": [
+            "@190436 Sorry to hear that, but thanks for the heads up. Our tech folks are investigating this as we speak. Hopefully we'll have a fix soon! /RK"
+          ],
+          "brand_reply": "@190436 Sorry to hear that, but thanks for the heads up. Our tech folks are investigating this as we speak. Hopefully we'll have a fix soon! /RK",
+          "intent": "app_bug",
+          "similarity_score": 0.4074,
+          "conversation_id": "311701"
+        },
+        {
+          "case_id": "CASE_2234732",
+          "customer_tweet_id": "2234732",
+          "customer_message": "@SpotifyCares No. no crashes",
+          "brand_replies": [
+            "@651830 Got it. Just to check, did you definitely watch the video ad that grants you 30 minutes ad-free listening after hearing the offer? /TB"
+          ],
+          "brand_reply": "@651830 Got it. Just to check, did you definitely watch the video ad that grants you 30 minutes ad-free listening after hearing the offer? /TB",
+          "intent": "app_bug",
+          "similarity_score": 0.3656,
+          "conversation_id": "2234732"
+        },
+        {
+          "case_id": "CASE_1034827",
+          "customer_tweet_id": "1034827",
+          "customer_message": "My laptop crashes every time I try to open the @115888 application. What do I need to do?",
+          "brand_replies": [
+            "@364795 Hey, that doesn't sound good! Which operating system and Spotify version are you running? We'll see what we can suggest /MA"
+          ],
+          "brand_reply": "@364795 Hey, that doesn't sound good! Which operating system and Spotify version are you running? We'll see what we can suggest /MA",
+          "intent": "app_bug",
+          "similarity_score": 0.3584,
+          "conversation_id": "1034827"
+        }
+      ],
+      "top_similarity": 0.4074,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_311701",
+        "similarity_score": 0.4074,
+        "intent": "app_bug"
+      },
+      {
+        "case_id": "CASE_2234732",
+        "similarity_score": 0.3656,
+        "intent": "app_bug"
+      },
+      {
+        "case_id": "CASE_1034827",
+        "similarity_score": 0.3584,
+        "intent": "app_bug"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 0.0
+  },
+  {
+    "customer_message": "I think my account has been hacked. Someone I do not know changed my email address and is using my premium subscription. What are you going to do about it?",
+    "intent": "subscription_issue",
+    "intent_confidence": 0.9844,
+    "top_intents": [
+      {
+        "intent": "subscription_issue",
+        "probability": 0.9844
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0108
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0048
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0
+      },
+      {
+        "intent": "other",
+        "probability": 0.0
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_1971842",
+          "customer_tweet_id": "1971842",
+          "customer_message": "@SpotifyCares my account has been hacked. The email address has been changed. Please can someone help. Thanks",
+          "brand_replies": [
+            "@584073 Hey Tim, we're sorry to hear that. It'd be best to check out https://t.co/QHn3ok8y2n for the steps needed to be done. They should help /AY"
+          ],
+          "brand_reply": "@584073 Hey Tim, we're sorry to hear that. It'd be best to check out https://t.co/QHn3ok8y2n for the steps needed to be done. They should help /AY",
+          "intent": "account_access",
+          "similarity_score": 0.6281,
+          "conversation_id": "1971842"
+        },
+        {
+          "case_id": "CASE_2059128",
+          "customer_tweet_id": "2059128",
+          "customer_message": "@SpotifyCares @115888 please help, my account has been hacked and they have changed my email address so I can't log in 😬😱",
+          "brand_replies": [
+            "@608998 Hey Lucinda! We’re sorry to hear that. Check out https://t.co/QHn3ok8y2n for what to do next. Let us know if you have other questions /KM"
+          ],
+          "brand_reply": "@608998 Hey Lucinda! We’re sorry to hear that. Check out https://t.co/QHn3ok8y2n for what to do next. Let us know if you have other questions /KM",
+          "intent": "account_access",
+          "similarity_score": 0.5993,
+          "conversation_id": "2059128"
+        },
+        {
+          "case_id": "CASE_1652579",
+          "customer_tweet_id": "1652579",
+          "customer_message": "@SpotifyCares Help! My account has been hacked I think! Can’t login and got email from you saying I’d changed my email address! I didn’t!",
+          "brand_replies": [
+            "@504557 Hey, help's here! Can you DM us your account's email address? We'll check backstage /GK https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@504557 Hey, help's here! Can you DM us your account's email address? We'll check backstage /GK https://t.co/ldFdZRiNAt",
+          "intent": "account_access",
+          "similarity_score": 0.5844,
+          "conversation_id": "1652579"
+        }
+      ],
+      "top_similarity": 0.6281,
+      "n_results": 3
+    },
+    "decision": "ESCALATE",
+    "escalation_reason": "Potential high-risk issue detected; human review required.",
+    "reply": "Thank you for reaching out. Based on the information provided, this request needs to be reviewed by a support specialist who can access your account details. Reason: Potential high-risk issue detected; human review required.",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_1971842",
+        "similarity_score": 0.6281,
+        "intent": "account_access"
+      },
+      {
+        "case_id": "CASE_2059128",
+        "similarity_score": 0.5993,
+        "intent": "account_access"
+      },
+      {
+        "case_id": "CASE_1652579",
+        "similarity_score": 0.5844,
+        "intent": "account_access"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 23.8
+  },
+  {
+    "customer_message": "My order is late, I was charged twice, and please also change my delivery address.",
+    "intent": "billing_issue",
+    "intent_confidence": 0.9541,
+    "top_intents": [
+      {
+        "intent": "billing_issue",
+        "probability": 0.9541
+      },
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.0169
+      },
+      {
+        "intent": "other",
+        "probability": 0.0119
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0098
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0037
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.003
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0006
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_1118813",
+          "customer_tweet_id": "1118813",
+          "customer_message": "@SpotifyCares Only FTNICR and Never Too Late are still there",
+          "brand_replies": [
+            "@383965 1: Hey there! We're afraid the rest of the tracks are not available in your region due to licensing changes.",
+            "@383965 2: More info about content here: https://t.co/0i8GpimuDa /KB"
+          ],
+          "brand_reply": "@383965 1: Hey there! We're afraid the rest of the tracks are not available in your region due to licensing changes.",
+          "intent": "other",
+          "similarity_score": 0.5129,
+          "conversation_id": "1118813"
+        },
+        {
+          "case_id": "CASE_2317409",
+          "customer_tweet_id": "2317409",
+          "customer_message": "Why have I been charged twice? 😐 @SpotifyCares",
+          "brand_replies": [
+            "@671882 Hey Chino, that doesn't sound good! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@671882 Hey Chino, that doesn't sound good! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.5101,
+          "conversation_id": "2317409"
+        },
+        {
+          "case_id": "CASE_1619275",
+          "customer_tweet_id": "1619275",
+          "customer_message": "@SpotifyCares I have been charged twice! Can you help?",
+          "brand_replies": [
+            "@496382 Hey! Can you fire over your account's email address or username via DM? We'll take a look backstage /RC https://t.co/ldFdZRiNAt"
+          ],
+          "brand_reply": "@496382 Hey! Can you fire over your account's email address or username via DM? We'll take a look backstage /RC https://t.co/ldFdZRiNAt",
+          "intent": "billing_issue",
+          "similarity_score": 0.466,
+          "conversation_id": "1619275"
+        }
+      ],
+      "top_similarity": 0.5129,
+      "n_results": 3
+    },
+    "decision": "ESCALATE",
+    "escalation_reason": "Request requires a private account/order action the agent cannot perform.",
+    "reply": "Thank you for reaching out. Based on the information provided, this request needs to be reviewed by a support specialist who can access your account details. Reason: Request requires a private account/order action the agent cannot perform.",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_1118813",
+        "similarity_score": 0.5129,
+        "intent": "other"
+      },
+      {
+        "case_id": "CASE_2317409",
+        "similarity_score": 0.5101,
+        "intent": "billing_issue"
+      },
+      {
+        "case_id": "CASE_1619275",
+        "similarity_score": 0.466,
+        "intent": "billing_issue"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 0.0
+  },
+  {
+    "customer_message": "Tell me about the new feature you launched last Thursday for international listeners.",
+    "intent": "feature_inquiry",
+    "intent_confidence": 0.8165,
+    "top_intents": [
+      {
+        "intent": "feature_inquiry",
+        "probability": 0.8165
+      },
+      {
+        "intent": "other",
+        "probability": 0.0449
+      },
+      {
+        "intent": "subscription_issue",
+        "probability": 0.0414
+      },
+      {
+        "intent": "playback_issue",
+        "probability": 0.0387
+      },
+      {
+        "intent": "app_bug",
+        "probability": 0.0248
+      },
+      {
+        "intent": "account_access",
+        "probability": 0.0195
+      },
+      {
+        "intent": "billing_issue",
+        "probability": 0.0143
+      }
+    ],
+    "retrieval": {
+      "sufficient": true,
+      "top_cases": [
+        {
+          "case_id": "CASE_48581",
+          "customer_tweet_id": "48581",
+          "customer_message": "@SpotifyCares but when it's been 9 years since Spotify was launched",
+          "brand_replies": [
+            "@126823 We understand. Rest assured, we'll update everyone who's added their email to that form when it's available! /K"
+          ],
+          "brand_reply": "@126823 We understand. Rest assured, we'll update everyone who's added their email to that form when it's available! /K",
+          "intent": "feature_inquiry",
+          "similarity_score": 0.3293,
+          "conversation_id": "48581"
+        },
+        {
+          "case_id": "CASE_965869",
+          "customer_tweet_id": "965869",
+          "customer_message": "@SpotifyCares When will Spotify be launched in India?",
+          "brand_replies": [
+            "@349214 Hey! We're launching in new countries as often as possible. Be sure to add your email at https://t.co/X8DVSX9QgM /DF"
+          ],
+          "brand_reply": "@349214 Hey! We're launching in new countries as often as possible. Be sure to add your email at https://t.co/X8DVSX9QgM /DF",
+          "intent": "feature_inquiry",
+          "similarity_score": 0.321,
+          "conversation_id": "965869"
+        },
+        {
+          "case_id": "CASE_2296733",
+          "customer_tweet_id": "2296733",
+          "customer_message": "@115888 when will be spotify launched in India",
+          "brand_replies": [
+            "@666786 We have no info right now, but we're launching in new countries regularly. Be sure to add your email at https://t.co/X8DVSX9QgM /DR"
+          ],
+          "brand_reply": "@666786 We have no info right now, but we're launching in new countries regularly. Be sure to add your email at https://t.co/X8DVSX9QgM /DR",
+          "intent": "feature_inquiry",
+          "similarity_score": 0.3181,
+          "conversation_id": "2296733"
+        }
+      ],
+      "top_similarity": 0.3293,
+      "n_results": 3
+    },
+    "decision": "AUTO_HANDLE",
+    "escalation_reason": null,
+    "reply": "Thank you for contacting support. I would like to help, but I need a little more information to assist you properly. Could you please confirm the details of your request?",
+    "grounding": {
+      "supported": true,
+      "issues": []
+    },
+    "evidence": [
+      {
+        "case_id": "CASE_48581",
+        "similarity_score": 0.3293,
+        "intent": "feature_inquiry"
+      },
+      {
+        "case_id": "CASE_965869",
+        "similarity_score": 0.321,
+        "intent": "feature_inquiry"
+      },
+      {
+        "case_id": "CASE_2296733",
+        "similarity_score": 0.3181,
+        "intent": "feature_inquiry"
+      }
+    ],
+    "generation_status": "ok",
+    "processing_time_ms": 7.7
+  }
+]
